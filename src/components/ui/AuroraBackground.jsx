@@ -48,14 +48,14 @@ const AuroraBackground = () => {
         absolute
         inset-0
         bg-[linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)]
-        bg-[size:70px_70px]
+        bg-size[70px_70px]
         opacity-30
         "
       />
 
       {/* Dark Gradient */}
 
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/20 to-slate-950"></div>
+      <div className="absolute inset-0 bg-linear-to-b from-transparent via-slate-950/20 to-slate-950"></div>
     </div>
   );
 };

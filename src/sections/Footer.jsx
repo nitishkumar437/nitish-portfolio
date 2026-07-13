@@ -31,8 +31,9 @@ const Footer = () => {
             </h2>
 
             <p className="mt-5 max-w-md text-slate-400 leading-8">
-              Passionate MERN Stack Developer building modern, scalable and
-              responsive web applications.
+              Passionate MERN Stack Developer and BCA student dedicated to
+              building scalable, responsive, and modern full-stack web
+              applications using the MERN stack.
             </p>
           </motion.div>
 
@@ -110,7 +111,9 @@ const Footer = () => {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/nitish-kumar-a2ab47375"
+              target="_blank"
+              rel="noreferrer"
               className="
                 flex
                 h-14
@@ -135,7 +138,9 @@ const Footer = () => {
             </a>
 
             <a
-              href="#"
+              href="https://www.instagram.com/alone_lover_0654/"
+              target="_blank"
+              rel="noreferrer"
               className="
                 flex
                 h-14
@@ -161,11 +166,8 @@ const Footer = () => {
           </motion.div>
         </div>
 
-        {/* Divider */}
-
-        <div className="my-10 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-
-        {/* Bottom */}
+        <div className="my-10 h-px bg-linear-to-r from-transparent via-white/20 to-transparent" />
+ 
 
         <div className="flex flex-col items-center gap-5 text-center lg:flex-row lg:justify-between">
           <p className="text-sm md:text-base leading-7 text-slate-400">
@@ -173,12 +175,12 @@ const Footer = () => {
           </p>
 
           <p className="flex flex-wrap items-center justify-center gap-2 text-sm md:text-base text-slate-400">
-            Made with
+            Built with
             <Heart
               size={18}
               className="fill-red-500 text-red-500 animate-pulse"
             />
-            using React & Tailwind CSS
+            using React.js, Tailwind CSS & Framer Motion
           </p>
         </div>
       </div>

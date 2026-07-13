@@ -48,7 +48,7 @@ const SkillCategory = ({ category, index = 0 }) => {
           group-hover:opacity-100
           transition
           duration-500
-          bg-gradient-to-br
+          bg-linear-to-br
           from-sky-500/5
           via-cyan-500/5
           to-transparent
@@ -78,12 +78,10 @@ const SkillCategory = ({ category, index = 0 }) => {
           {category.skills.length}
         </div>
       </div>
+ 
 
-      {/* Divider */}
-
-      <div className="relative z-10 h-px bg-gradient-to-r from-sky-500/40 via-white/10 to-transparent mb-8" />
-
-      {/* Skills */}
+      <div className="relative z-10 h-px bg-linear-to-r from-sky-500/40 via-white/10 to-transparent mb-8" />
+ 
 
       <div className="grid gap-5">
         {category.skills.map((skill, skillIndex) => (

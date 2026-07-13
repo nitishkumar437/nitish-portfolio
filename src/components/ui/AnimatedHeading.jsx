@@ -19,7 +19,7 @@ const AnimatedHeading = ({ title, subtitle }) => {
           duration: 0.7,
           delay: 0.15,
         }}
-        className="bg-gradient-to-r from-white via-sky-300 to-cyan-400 bg-clip-text text-5xl font-black leading-tight text-transparent md:text-7xl"
+        className="bg-linear-to-r from-white via-sky-300 to-cyan-400 bg-clip-text text-5xl font-black leading-tight text-transparent md:text-7xl"
       >
         {title}
       </motion.h1>

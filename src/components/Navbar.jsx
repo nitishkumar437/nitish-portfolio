@@ -73,9 +73,9 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="absolute top-0 left-0 w-full h-[2px] bg-transparent">
+      <div className="absolute top-0 left-0 w-full h-0.5 bg-transparent">
         <motion.div
-          className="h-full bg-gradient-to-r from-sky-400 via-cyan-400 to-blue-500"
+          className="h-full bg-linear-to-r from-sky-400 via-cyan-400 to-blue-500"
           animate={{
             width: `${scrollProgress}%`,
           }}
@@ -98,7 +98,7 @@ const Navbar = () => {
       w-11
       h-11
       rounded-xl
-      bg-gradient-to-br
+      bg-linear-to-br
       from-sky-400
       via-cyan-400
       to-blue-500
@@ -145,7 +145,7 @@ const Navbar = () => {
                 {isActive && (
                   <motion.span
                     layoutId="active-navbar"
-                    className="absolute left-0 -bottom-2 h-[3px] w-full rounded-full bg-sky-400 shadow-[0_0_15px_rgba(56,189,248,.8)]"
+                    className="absolute left-0 -bottom-2 h-0.75 w-full rounded-full bg-sky-400 shadow-[0_0_15px_rgba(56,189,248,.8)]"
                   />
                 )}
               </li>
@@ -301,7 +301,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href="YOUR_LINKEDIN_URL"
+                  href="https://linkedin.com/in/nitish-kumar-a2ab47375"
                   target="_blank"
                   rel="noreferrer"
                   className="

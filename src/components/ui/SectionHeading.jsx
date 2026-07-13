@@ -32,12 +32,11 @@ const SectionHeading = ({ badge, title, gradient, description }) => {
 
         <br />
 
-        <span className="bg-gradient-to-r from-sky-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
+        <span className="bg-linear-to-r from-sky-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">
           {gradient}
         </span>
       </h2>
-
-      {/* Description */}
+ 
 
       <p className="mt-7 text-slate-400 leading-8 text-base sm:text-lg">
         {description}

@@ -34,15 +34,15 @@ export const projects = [
     title: "Developer Portfolio",
 
     description:
-      "Personal portfolio built using React, Framer Motion and Tailwind CSS with premium UI animations and responsive design.",
+      "Modern developer portfolio showcasing projects, skills, experience and contact information with premium animations, responsive design and optimized performance.",
 
     image: portfolio,
 
-    technologies: ["React", "Tailwind", "Framer Motion"],
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
 
-    live: "https://your-portfolio.vercel.app",
+    live: "#", // Vercel deploy ke baad yahan URL dalenge
 
-    github: "https://github.com/nitishkumar437",
+    github: "https://github.com/nitishkumar437/nitish-portfolio",
   },
 
   {
@@ -57,7 +57,7 @@ export const projects = [
 
     live: "#",
 
-    github: "https://github.com/nitishkumar437",
+    github: "#",
   },
 
   {

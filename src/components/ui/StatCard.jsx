@@ -38,7 +38,7 @@ const StatCard = ({ number, title, delay = 0 }) => {
       {/* Glow */}
       <div className="absolute -right-6 -top-6 h-16 w-16 rounded-full bg-sky-500/10 blur-2xl"></div>
 
-      <h3 className="text-3xl md:text-4xl font-black bg-gradient-to-r from-sky-300 to-cyan-400 bg-clip-text text-transparent">
+      <h3 className="text-3xl md:text-4xl font-black bg-linear-to-r from-sky-300 to-cyan-400 bg-clip-text text-transparent">
         {number}
       </h3>
 

@@ -10,12 +10,12 @@ export const socialLinks = [
   {
     name: "LinkedIn",
     icon: FaLinkedin,
-    url: "https://linkedin.com/in/your-linkedin",
+    url: "https://www.linkedin.com/in/nitish-kumar-a2ab47375/",
   },
 
   {
     name: "Instagram",
     icon: FaInstagram,
-    url: "https://instagram.com/your-instagram",
+    url: "https://www.instagram.com/alone_lover_0654/",
   },
 ];

@@ -38,8 +38,6 @@ const InfoCard = ({ icon: Icon, title, value, delay = 0 }) => {
         hover:shadow-[0_0_35px_rgba(56,189,248,.15)]
       "
     >
-      {/* Background Glow */}
-
       <div
         className="
           absolute
@@ -48,13 +46,11 @@ const InfoCard = ({ icon: Icon, title, value, delay = 0 }) => {
           group-hover:opacity-100
           transition
           duration-500
-          bg-gradient-to-br
+          bg-linear-to-br
           from-sky-500/5
           to-cyan-500/5
         "
       />
-
-      {/* Icon */}
 
       <div
         className="
@@ -78,13 +74,11 @@ const InfoCard = ({ icon: Icon, title, value, delay = 0 }) => {
         <Icon size={26} />
       </div>
 
-      {/* Content */}
-
       <h4 className="relative mt-5 text-lg font-semibold text-white">
         {title}
       </h4>
 
-      <p className="relative mt-2 text-slate-400 leading-7 break-words">
+      <p className="relative mt-2 text-slate-400 leading-7 wrap-break-word">
         {value}
       </p>
     </motion.div>

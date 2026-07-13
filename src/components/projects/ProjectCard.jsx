@@ -22,7 +22,8 @@ const ProjectCard = ({ project, delay = 0 }) => {
         delay,
       }}
       whileHover={{
-        y: -10,
+        y: -8,
+        scale: 1.02,
       }}
       className="
         group
@@ -38,14 +39,15 @@ const ProjectCard = ({ project, delay = 0 }) => {
         hover:shadow-[0_20px_60px_rgba(56,189,248,.15)]
       "
     >
-      {/* Project Image */}
+ 
 
       <div className="relative overflow-hidden">
         <img
           src={project.image}
           alt={project.title}
           className="
-            h-56
+            h-52
+            sm:h-56
             w-full
             object-cover
             transition-transform
@@ -58,20 +60,23 @@ const ProjectCard = ({ project, delay = 0 }) => {
           className="
             absolute
             inset-0
-            bg-gradient-to-t
+            bg-linear-to-t
             from-slate-950
             via-slate-950/10
             to-transparent
           "
         />
       </div>
+ 
 
-      {/* Content */}
+      <div className="p-5 sm:p-6">
+        <h3 className="text-xl sm:text-2xl font-bold text-white">
+          {project.title}
+        </h3>
 
-      <div className="p-6">
-        <h3 className="text-2xl font-bold text-white">{project.title}</h3>
-
-        <p className="mt-4 text-slate-400 leading-7">{project.description}</p>
+        <p className="mt-4 text-sm sm:text-base text-slate-400 leading-7">
+          {project.description}
+        </p>
 
         {/* Tech Stack */}
 

@@ -41,7 +41,7 @@ const TypingText = () => {
   return (
     <div className="mt-6 h-14 flex items-center justify-center lg:justify-start">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
-        <span className="bg-gradient-to-r from-sky-400 via-cyan-300 to-sky-500 bg-clip-text text-transparent">
+        <span className="bg-linear-to-r from-sky-400 via-cyan-300 to-sky-500 bg-clip-text text-transparent">
           {text}
         </span>
 

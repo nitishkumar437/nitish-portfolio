@@ -50,7 +50,7 @@ const SkillCard = ({ skill, delay = 0 }) => {
           group-hover:opacity-100
           transition
           duration-500
-          bg-gradient-to-br
+          bg-linear-to-br
           from-sky-500/10
           via-cyan-500/5
           to-transparent

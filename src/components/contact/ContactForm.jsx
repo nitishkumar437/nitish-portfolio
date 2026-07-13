@@ -86,8 +86,7 @@ const ContactForm = () => {
       <p className="mt-3 text-slate-400">
         Fill out the form below and I'll get back to you as soon as possible.
       </p>
-
-      {/* Name */}
+ 
 
       <div className="mt-8">
         <label className="mb-2 block text-sm text-slate-300">Full Name</label>
@@ -114,8 +113,7 @@ const ContactForm = () => {
           "
         />
       </div>
-
-      {/* Email */}
+ 
 
       <div className="mt-6">
         <label className="mb-2 block text-sm text-slate-300">Email</label>
@@ -142,8 +140,7 @@ const ContactForm = () => {
           "
         />
       </div>
-
-      {/* Subject */}
+ 
 
       <div className="mt-6">
         <label className="mb-2 block text-sm text-slate-300">Subject</label>
@@ -170,8 +167,7 @@ const ContactForm = () => {
           "
         />
       </div>
-
-      {/* Message */}
+ 
 
       <div className="mt-6">
         <label className="mb-2 block text-sm text-slate-300">Message</label>
@@ -200,8 +196,6 @@ const ContactForm = () => {
         />
       </div>
 
-      {/* Button */}
-
       <button
         type="submit"
         disabled={loading}
@@ -213,7 +207,7 @@ const ContactForm = () => {
     justify-center
     gap-2
     rounded-xl
-    bg-gradient-to-r
+    bg-linear-to-r
     from-sky-500
     to-cyan-500
     px-6

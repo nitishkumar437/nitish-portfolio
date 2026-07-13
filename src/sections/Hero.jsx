@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Download, ArrowRight } from "lucide-react";
+import { Download } from "lucide-react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 import profile from "../assets/images/profile.png";
@@ -36,7 +36,7 @@ const Hero = () => {
             <h1 className="mt-7 font-black leading-tight text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
               Hi, I'm
               <br />
-              <span className="bg-gradient-to-r from-white via-sky-300 to-sky-500 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-white via-sky-300 to-sky-500 bg-clip-text text-transparent">
                 Nitish Kumar
               </span>
             </h1>
@@ -46,9 +46,10 @@ const Hero = () => {
             </div>
 
             <p className="mt-8 max-w-sm sm:max-w-lg lg:max-w-xl mx-auto lg:mx-0 text-slate-400 text-base sm:text-lg leading-8">
-              Passionate MERN Stack Developer focused on building scalable,
-              responsive and modern web applications using React, Node.js,
-              Express.js and MongoDB.
+              Passionate MERN Stack Developer and BCA student focused on
+              building scalable, responsive, and modern full-stack web
+              applications using React.js, Node.js, Express.js, MongoDB, and
+              Tailwind CSS.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -77,7 +78,9 @@ const Hero = () => {
               </a>
 
               <a
-                href="#"
+                href="https://linkedin.com/in/nitish-kumar-a2ab47375"
+                target="_blank"
+                rel="noreferrer"
                 className="w-12 h-12 rounded-full bg-slate-900 border border-slate-700 hover:border-sky-400 hover:text-sky-400 transition-all duration-300 flex items-center justify-center"
               >
                 <FaLinkedin className="text-xl" />
@@ -92,11 +95,11 @@ const Hero = () => {
             </div>
 
             <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <StatCard number="10+" title="Projects" delay={0.2} />
+              <StatCard number="4+" title="Major Projects" delay={0.2} />
 
               <StatCard number="1+" title="Years Learning" delay={0.4} />
 
-              <StatCard number="100+" title="DSA Problems" delay={0.6} />
+              <StatCard number="150+" title="Coding Hours" delay={0.6} />
             </div>
           </motion.div>
           {/* ================= RIGHT ================= */}

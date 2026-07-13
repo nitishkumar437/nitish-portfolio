@@ -53,7 +53,7 @@ const AchievementCard = ({
           group-hover:opacity-100
           transition
           duration-500
-          bg-gradient-to-br
+          bg-linear-to-br
           from-sky-500/10
           to-cyan-500/5
         "

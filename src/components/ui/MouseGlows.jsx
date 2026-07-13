@@ -49,8 +49,8 @@ const MouseGlow = () => {
       left-0
       top-0
       z-0
-      h-[360px]
-      w-[360px]
+      h-90
+      w-90
       rounded-full
       bg-sky-500/15
       blur-[120px]

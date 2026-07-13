@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import SectionHeading from "../components/ui/SectionHeading";
 
-import { TimelineCard } from "../components/journey/TimelineCard";
+import TimelineCard from "../components/journey/TimelineCard";
 import { journey } from "../data/journey";
 
 const Journey = () => {
@@ -11,11 +11,9 @@ const Journey = () => {
       id="journey"
       className="relative overflow-hidden bg-slate-950 py-28"
     >
-  
-
       <div className="absolute -top-40 left-0 h-96 w-96 rounded-full bg-sky-500/10 blur-[140px]" />
 
-      <div className="absolute bottom-0 right-0 h-[450px] w-[450px] rounded-full bg-cyan-500/10 blur-[150px]" />
+      <div className="absolute bottom-0 right-0 h-112.5 w-112.5 rounded-full bg-cyan-500/10 blur-[150px]" />
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <SectionHeading
@@ -25,11 +23,7 @@ const Journey = () => {
           description="My journey from learning programming fundamentals to building complete MERN Stack applications."
         />
 
-       
-
         <div className="relative mt-24">
-         
-
           <motion.div
             initial={{ height: 0 }}
             whileInView={{ height: "100%" }}
@@ -41,9 +35,9 @@ left-6
 md:left-1/2
 md:-translate-x-1/2
 top-0
-w-[3px]
+w-0.75
 rounded-full
-bg-gradient-to-b
+bg-linear-to-b
 from-sky-400
 via-cyan-400
 to-blue-500
@@ -54,8 +48,6 @@ to-blue-500
             <TimelineCard key={index} item={item} index={index} />
           ))}
         </div>
-
-       
 
         <motion.div
           initial={{
@@ -99,7 +91,7 @@ to-blue-500
               mt-10
               inline-flex
               rounded-xl
-              bg-gradient-to-r
+              bg-linear-to-r
               from-sky-500
               to-cyan-500
               px-8

@@ -42,7 +42,7 @@ const TimelineCard = ({ item, index }) => {
         border-4
         border-slate-950
 
-        bg-gradient-to-br
+        bg-linear-to-br
         from-sky-400
         to-cyan-500
 

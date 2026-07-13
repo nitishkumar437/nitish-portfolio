@@ -31,27 +31,27 @@ const FeaturedProject = ({ project }) => {
       "
     >
       <div className="grid lg:grid-cols-2">
-        {/* Left Image */}
-
         <div className="relative overflow-hidden">
           <img
             src={project.image}
             alt={project.title}
             className="
-              h-full
-              w-full
-              object-cover
-              transition-transform
-              duration-700
-              hover:scale-105
-            "
+w-full
+h-64
+sm:h-80
+lg:h-full
+object-cover
+transition-transform
+duration-700
+hover:scale-105
+"
           />
 
           <div
             className="
               absolute
               inset-0
-              bg-gradient-to-t
+              bg-linear-to-t
               from-slate-950/70
               via-transparent
               to-transparent
@@ -59,9 +59,7 @@ const FeaturedProject = ({ project }) => {
           />
         </div>
 
-        {/* Right Content */}
-
-        <div className="p-8 lg:p-10 flex flex-col justify-center">
+        <div className="p-6 sm:p-8 lg:p-10 flex flex-col justify-center">
           <span
             className="
               inline-flex
@@ -80,21 +78,19 @@ const FeaturedProject = ({ project }) => {
             ⭐ Featured Project
           </span>
 
-          <h2 className="mt-6 text-4xl font-black text-white">
+          <h2 className="mt-6 text-3xl sm:text-4xl font-black text-white">
             {project.title}
           </h2>
 
-          <p className="mt-6 leading-8 text-slate-400">{project.description}</p>
-
-          {/* Tech Stack */}
+          <p className="mt-6 text-base leading-7 sm:leading-8 text-slate-400">
+            {project.description}
+          </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
             {project.technologies.map((tech) => (
               <TechBadge key={tech} name={tech} />
             ))}
           </div>
-
-          {/* Buttons */}
 
           <ProjectButtons live={project.live} github={project.github} />
         </div>
