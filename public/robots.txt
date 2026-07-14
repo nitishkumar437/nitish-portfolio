@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nitish-portfolio-dun.vercel.app/sitemap.xml
