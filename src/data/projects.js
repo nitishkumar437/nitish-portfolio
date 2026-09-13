@@ -1,7 +1,6 @@
 import studysync from "../assets/projects/studysync.png";
 import portfolio from "../assets/projects/portfolio.png";
-import notes from "../assets/projects/notes.png";
-import blog from "../assets/projects/blog.png";
+import razorpay from "../assets/projects/razorpay.png";
 
 // ================= Featured Project =================
 
@@ -22,7 +21,7 @@ export const featuredProject = {
     "Tailwind CSS",
   ],
 
-  live: "https://my-studysync.vercel.app",
+  live: "https://studysync-omega-lake.vercel.app/",
 
   github: "https://github.com/nitishkumar437/studysync",
 };
@@ -40,38 +39,23 @@ export const projects = [
 
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
 
-    live: "#", // Vercel deploy ke baad yahan URL dalenge
+    live: "https://nitish-portfolio-dun.vercel.app/",
 
     github: "https://github.com/nitishkumar437/nitish-portfolio",
   },
 
   {
-    title: "Notes CRUD App",
+    title: "Razorpay Landing Page Clone",
 
     description:
-      "Full Stack Notes application with authentication, CRUD operations and MongoDB database integration.",
+      "Responsive payment-platform landing page recreated using React.js and Tailwind CSS with reusable components and modern UI design.",
 
-    image: notes,
+    image: razorpay,
 
-    technologies: ["React", "Express", "MongoDB", "Node.js"],
+    technologies: ["React", "Tailwind CSS", "Vite"],
 
-    live: "#",
+    live: "https://razarpay-clone-peach.vercel.app/",
 
-    github: "#",
-  },
-
-  {
-    title: "Blog Application",
-
-    description:
-      "Modern blog platform with authentication, image upload and complete CRUD functionality.",
-
-    image: blog,
-
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
-
-    live: "#",
-
-    github: "https://github.com/nitishkumar437",
+    github: "https://github.com/nitishkumar437/Razorpay-clone",
   },
 ];
