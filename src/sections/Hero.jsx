@@ -56,7 +56,7 @@ const Hero = () => {
               <GradientButton href="#contact">Hire Me</GradientButton>
 
               <GradientButton
-                href="/resume.pdf"
+                href="/nitish_resume.pdf"
                 download
                 primary={false}
                 icon={false}

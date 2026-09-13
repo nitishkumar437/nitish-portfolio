@@ -14,7 +14,7 @@ const Contact = () => {
 
       <div className="absolute -top-32 left-0 h-72 w-72 md:h-96 md:w-96 rounded-full bg-sky-500/10 blur-[120px]" />
 
-      <div className="absolute bottom-0 right-0 h-80 w-80 md:h-[500px] md:w-[500px] rounded-full bg-cyan-500/10 blur-[150px]" />
+      <div className="absolute bottom-0 right-0 h-80 w-80 md:h-125 md:w-125 rounded-full bg-cyan-500/10 blur-[150px]" />
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <SectionHeading
@@ -52,11 +52,7 @@ const Contact = () => {
             items-start
           "
         >
-          {/* Left Side */}
-
           <ContactInfo />
-
-          {/* Right Side */}
 
           <ContactForm />
         </motion.div>

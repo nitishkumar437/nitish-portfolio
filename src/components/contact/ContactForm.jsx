@@ -86,7 +86,6 @@ const ContactForm = () => {
       <p className="mt-3 text-slate-400">
         Fill out the form below and I'll get back to you as soon as possible.
       </p>
- 
 
       <div className="mt-8">
         <label className="mb-2 block text-sm text-slate-300">Full Name</label>
@@ -113,7 +112,6 @@ const ContactForm = () => {
           "
         />
       </div>
- 
 
       <div className="mt-6">
         <label className="mb-2 block text-sm text-slate-300">Email</label>
@@ -140,7 +138,6 @@ const ContactForm = () => {
           "
         />
       </div>
- 
 
       <div className="mt-6">
         <label className="mb-2 block text-sm text-slate-300">Subject</label>
@@ -167,7 +164,6 @@ const ContactForm = () => {
           "
         />
       </div>
- 
 
       <div className="mt-6">
         <label className="mb-2 block text-sm text-slate-300">Message</label>
