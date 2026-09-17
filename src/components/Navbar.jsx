@@ -160,7 +160,7 @@ const Navbar = () => {
             whileTap={{
               scale: 0.97,
             }}
-            href="/nitish_resume.pdf"
+            href="/Nitish_Kumar_Resume.pdf"
             download
             className="
     flex
@@ -346,7 +346,7 @@ const Navbar = () => {
                 whileTap={{
                   scale: 0.95,
                 }}
-                href="/nitish_resume.pdf"
+                href="/Nitish_Kumar_Resume.pdf"
                 download
                 className="
           mt-8

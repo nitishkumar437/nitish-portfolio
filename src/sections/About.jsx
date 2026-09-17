@@ -190,7 +190,7 @@ const About = () => {
               <GradientButton href="#contact">Hire Me</GradientButton>
 
               <GradientButton
-                href="/nitish_resume.pdf"
+                href="/Nitish_Kumar_Resume.pdf"
                 download
                 primary={false}
                 icon={false}
